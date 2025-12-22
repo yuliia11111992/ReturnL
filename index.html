@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Возврат Средств - Юридическая Помощь</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Навигация -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-brand">
+          <svg
+            class="logo-icon"
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="25"
+              cy="25"
+              r="20"
+              fill="none"
+              stroke="#00ff88"
+              stroke-width="2"
+            />
+            <path d="M25 15 L35 25 L25 35 L15 25 Z" fill="#00ff88" />
+          </svg>
+          <span class="brand-name">Return Legal</span>
+        </div>
+
+        <ul class="nav-menu">
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#how-we-work">Как мы работаем</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+          <li><a href="#contact">Контакты</a></li>
+          <li>
+            <a href="#contact" class="btn-nav">Бесплатная консультация</a>
+          </li>
+        </ul>
+
+        <button class="burger-menu" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Мобильное меню -->
+    <div class="mobile-menu" id="mobile-menu">
+      <button class="close-menu" id="close-menu">&times;</button>
+      <ul>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#how-we-work">Как мы работаем</a></li>
+        <li><a href="#reviews">Отзывы</a></li>
+        <li><a href="#contact">Контакты</a></li>
+        <li>
+          <a href="#contact" class="btn-mobile">Бесплатная консультация</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Героический блок -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <div class="hero-label">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="10" cy="10" r="8" fill="#00ff88" opacity="0.2" />
+                <circle cx="10" cy="10" r="3" fill="#00ff88" />
+              </svg>
+              <span>Юридическая помощь по возврату средств</span>
+            </div>
+
+            <h1>Вернем ваши деньги законным путем</h1>
+
+            <div class="problems-list">
+              <div class="problem-item">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="#00ff88"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>Вам заблокировали счет?</span>
+              </div>
+              <div class="problem-item">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="#00ff88"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>Не можете вывести средства с платформы?</span>
+              </div>
+              <div class="problem-item">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="#00ff88"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>Сайт перестал работать?</span>
+              </div>
+              <div class="problem-item">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="#00ff88"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>Просят доп оплату при выводе средств?</span>
+              </div>
+            </div>
+
+            <div class="hero-buttons">
+              <a href="#contact" class="btn-primary">Получить консультацию</a>
+              <a href="#how-we-work" class="btn-secondary">Как мы работаем</a>
+            </div>
+
+            <div class="hero-note">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM11 15H9V13H11V15ZM11 11H9V5H11V11Z"
+                  fill="#00ff88"
+                  opacity="0.7"
+                />
+              </svg>
+              <p>
+                <strong>Важно:</strong> Не переводите дополнительную оплату за
+                "разблокировку" или "верификацию". Действуйте через закон!
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-form">
+            <div class="form-card">
+              <h3>Бесплатная проверка</h3>
+              <p class="form-subtitle">
+                Заполните форму — мы объясним порядок возврата ваших средств
+              </p>
+
+              <form id="hero-form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name">Имя</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Как к вам обращаться"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="phone">Телефон или мессенджер</label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      placeholder="+7"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="amount">Сумма (примерно)</label>
+                  <input
+                    type="text"
+                    id="amount"
+                    name="amount"
+                    placeholder="Например: 3 500 USDT / 2 000 000 ₽"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="platform">Когда возникла проблема</label>
+                  <select id="platform" name="platform" required>
+                    <option value="">Выберите</option>
+                    <option value="recent">В последний месяц</option>
+                    <option value="2-3months">2-3 месяца назад</option>
+                    <option value="6months">Более полугода назад</option>
+                    <option value="year">Больше года назад</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="situation">Кратко опишите ситуацию</label>
+                  <textarea
+                    id="situation"
+                    name="situation"
+                    rows="3"
+                    placeholder="Например: пополнил, личный кабинет заблокирован, поддержка не отвечает..."
+                  ></textarea>
+                </div>
+
+                <div class="form-disclaimer">
+                  <p>Мы не запрашиваем:</p>
+                  <ul>
+                    <li>Предоплату</li>
+                    <li>Приватные ключи от кошельков</li>
+                    <li>Пароли от аккаунтов</li>
+                  </ul>
+                </div>
+
+                <div class="form-group checkbox-group">
+                  <input
+                    type="checkbox"
+                    id="agreement"
+                    name="agreement"
+                    required
+                  />
+                  <label for="agreement"
+                    >Согласен(на) на обработку данных для связи и анализа
+                    обращения</label
+                  >
+                </div>
+
+                <button type="submit" class="btn-submit">
+                  Отправить заявку
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- О нас -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>О нас</h2>
+          <p class="section-subtitle">
+            Профессиональная юридическая помощь в возврате средств
+          </p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-card">
+            <div class="about-icon">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="8"
+                  y="12"
+                  width="32"
+                  height="28"
+                  rx="2"
+                  stroke="#00ff88"
+                  stroke-width="2"
+                />
+                <path
+                  d="M16 8V12M32 8V12M8 20H40"
+                  stroke="#00ff88"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <circle cx="24" cy="28" r="2" fill="#00ff88" />
+              </svg>
+            </div>
+            <h3>Более 7 лет опыта</h3>
+            <p>
+              Мы специализируемся на делах о финансовом мошенничестве и возврате
+              средств с различных платформ
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24 4L30 18L44 20L34 30L36 44L24 37L12 44L14 30L4 20L18 18L24 4Z"
+                  stroke="#00ff88"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3>89% успешных дел</h3>
+            <p>
+              Высокий процент успешных взысканий благодаря грамотной юридической
+              стратегии и сбору доказательств
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="24"
+                  cy="24"
+                  r="18"
+                  stroke="#00ff88"
+                  stroke-width="2"
+                />
+                <path
+                  d="M24 12V24L32 28"
+                  stroke="#00ff88"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3>Действуем быстро</h3>
+            <p>
+              Понимаем важность времени — начинаем работу в течение 24 часов
+              после обращения
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 24L20 32L36 16"
+                  stroke="#00ff88"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <circle
+                  cx="24"
+                  cy="24"
+                  r="18"
+                  stroke="#00ff88"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <h3>Оплата по результату</h3>
+            <p>
+              Гонорар только в случае успешного взыскания средств. Консультация
+              и анализ — бесплатно
+            </p>
+          </div>
+        </div>
+
+        <div class="about-description">
+          <p>
+            Мы — команда юристов, специализирующихся на защите прав граждан в
+            финансовой сфере. За годы практики мы помогли сотням клиентов
+            вернуть средства с заблокированных платформ, недобросовестных
+            брокеров и финансовых проектов.
+          </p>
+          <p>
+            Наш подход — это индивидуальная работа с каждым делом, тщательный
+            сбор доказательств и грамотное юридическое сопровождение на всех
+            этапах. Мы работаем как с российским, так и с международным
+            законодательством.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Как мы работаем -->
+    <section id="how-we-work" class="how-we-work">
+      <div class="container">
+        <div class="section-header">
+          <h2>Как мы работаем</h2>
+          <p class="section-subtitle">Прозрачный процесс возврата средств</p>
+        </div>
+
+        <div class="steps">
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <div class="step-content">
+              <h3>Анализ и консультация</h3>
+              <p>
+                Изучаем вашу ситуацию, анализируем документы и определяем
+                правовую стратегию. Консультация бесплатная — вы ничем не
+                рискуете.
+              </p>
+              <ul class="step-list">
+                <li>Оценка перспектив дела</li>
+                <li>Определение суммы возможного возврата</li>
+                <li>Составление плана действий</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">02</div>
+            <div class="step-content">
+              <h3>Сбор доказательной базы</h3>
+              <p>
+                Помогаем правильно собрать и оформить все необходимые документы
+                и доказательства для успешного взыскания.
+              </p>
+              <ul class="step-list">
+                <li>Скриншоты личного кабинета и переписок</li>
+                <li>История транзакций и платежей</li>
+                <li>Договоры и соглашения</li>
+                <li>Подтверждения попыток вывода средств</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <div class="step-content">
+              <h3>Досудебное урегулирование</h3>
+              <p>
+                Готовим и направляем официальные претензии. Во многих случаях
+                это позволяет решить вопрос быстрее и без суда.
+              </p>
+              <ul class="step-list">
+                <li>Составление юридически грамотной претензии</li>
+                <li>Направление через официальные каналы</li>
+                <li>Взаимодействие с контрагентами</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">04</div>
+            <div class="step-content">
+              <h3>Судебное взыскание</h3>
+              <p>
+                Если досудебное урегулирование не помогает, мы подаем иск и
+                представляем ваши интересы в суде.
+              </p>
+              <ul class="step-list">
+                <li>Подготовка искового заявления</li>
+                <li>Представительство в суде</li>
+                <li>Работа с правоохранительными органами</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">05</div>
+            <div class="step-content">
+              <h3>Исполнение решения</h3>
+              <p>
+                Добиваемся реального возврата средств через исполнительное
+                производство и работу с активами должника.
+              </p>
+              <ul class="step-list">
+                <li>Получение исполнительного листа</li>
+                <li>Работа с судебными приставами</li>
+                <li>Розыск и арест активов</li>
+                <li>Фактический возврат денег</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-note">
+          <div class="note-icon">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="#00ff88"
+                stroke-width="2"
+              />
+              <path
+                d="M12 6V12L16 14"
+                stroke="#00ff88"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <div>
+            <h4>Сроки</h4>
+            <p>
+              Процесс может занимать от 3 до 12 месяцев в зависимости от
+              сложности дела. Важно начать как можно раньше, пока доказательства
+              доступны.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section id="reviews" class="reviews">
+      <div class="container">
+        <div class="section-header">
+          <h2>Отзывы клиентов</h2>
+          <p class="section-subtitle">
+            Реальные истории успешного возврата средств
+          </p>
+        </div>
+
+        <div class="reviews-grid">
+          <div class="review-card">
+            <div class="review-header">
+              <div class="review-avatar">АМ</div>
+              <div class="review-info">
+                <h4>Александр М.</h4>
+                <div class="review-stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text">
+              "Потерял доступ к платформе с суммой около $15,000. Обратился к
+              юристам, они быстро разобрались в ситуации и за 8 месяцев смогли
+              вернуть 92% средств. Очень благодарен за профессионализм!"
+            </p>
+            <div class="review-meta">
+              <span class="review-amount">Возвращено: ~$13,800</span>
+              <span class="review-date">Ноябрь 2024</span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="review-avatar">ЕК</div>
+              <div class="review-info">
+                <h4>Елена К.</h4>
+                <div class="review-stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text">
+              "Сайт брокера закрылся, техподдержка перестала отвечать. Сумма
+              была небольшая — 180 тысяч рублей, но для меня это были важные
+              деньги. Юристы помогли вернуть всю сумму через суд!"
+            </p>
+            <div class="review-meta">
+              <span class="review-amount">Возвращено: 180 000 ₽</span>
+              <span class="review-date">Октябрь 2024</span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="review-avatar">ДС</div>
+              <div class="review-info">
+                <h4>Дмитрий С.</h4>
+                <div class="review-stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text">
+              "Инвестиционная платформа требовала доплату за вывод средств.
+              Хорошо, что не стал платить, а обратился к профессионалам. Дело
+              заняло 5 месяцев, но результат того стоил — вернули 87% от
+              вложенных 2.5 миллионов."
+            </p>
+            <div class="review-meta">
+              <span class="review-amount">Возвращено: ~2 175 000 ₽</span>
+              <span class="review-date">Сентябрь 2024</span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="review-avatar">МВ</div>
+              <div class="review-info">
+                <h4>Мария В.</h4>
+                <div class="review-stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text">
+              "Торговая платформа заблокировала счет под предлогом 'проверки'.
+              Думала, что деньги потеряны навсегда. Юристы нашли подход и через
+              досудебное урегулирование вернули мне 100% средств!"
+            </p>
+            <div class="review-meta">
+              <span class="review-amount">Возвращено: $8,500</span>
+              <span class="review-date">Август 2024</span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="review-avatar">ИП</div>
+              <div class="review-info">
+                <h4>Игорь П.</h4>
+                <div class="review-stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text">
+              "Криптоплатформа внезапно закрылась. Вложил туда 4200 USDT.
+              Специалисты смогли установить реальных владельцев и через суд
+              взыскать средства. Процесс был долгим, но я доволен результатом."
+            </p>
+            <div class="review-meta">
+              <span class="review-amount">Возвращено: ~3 700 USDT</span>
+              <span class="review-date">Июль 2024</span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="review-avatar">НР</div>
+              <div class="review-info">
+                <h4>Наталья Р.</h4>
+                <div class="review-stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text">
+              "Очень признательна за помощь! Сайт исчез, деньги не выводились.
+              Юристы работали оперативно, всё объясняли понятным языком. За 6
+              месяцев вернули 95% от вложенных 520 тысяч рублей."
+            </p>
+            <div class="review-meta">
+              <span class="review-amount">Возвращено: ~494 000 ₽</span>
+              <span class="review-date">Июнь 2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h2>Задайте вопрос или получите консультацию</h2>
+            <p class="contact-subtitle">
+              Мы ответим в течение 2 часов и поможем разобраться в вашей
+              ситуации
+            </p>
+
+            <div class="contact-features">
+              <div class="contact-feature">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="#00ff88"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>Консультация бесплатна</span>
+              </div>
+              <div class="contact-feature">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="#00ff88"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>Конфиденциальность гарантируем</span>
+              </div>
+              <div class="contact-feature">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="#00ff88"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>Работаем по всей России и СНГ</span>
+              </div>
+            </div>
+
+            <div class="contact-methods">
+              <h3>Свяжитесь с нами:</h3>
+              <div class="contact-method">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3 8L10.89 13.26C11.2187 13.4793 11.6049 13.5963 12 13.5963C12.3951 13.5963 12.7813 13.4793 13.11 13.26L21 8M5 19H19C19.5304 19 20.0391 18.7893 20.4142 18.4142C20.7893 18.0391 21 17.5304 21 17V7C21 6.46957 20.7893 5.96086 20.4142 5.58579C20.0391 5.21071 19.5304 5 19 5H5C4.46957 5 3.96086 5.21071 3.58579 5.58579C3.21071 5.96086 3 6.46957 3 7V17C3 17.5304 3.21071 18.0391 3.58579 18.4142C3.96086 18.7893 4.46957 19 5 19Z"
+                    stroke="#00ff88"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <div>
+                  <strong>Email:</strong>
+                  <a
+                    href="/cdn-cgi/l/email-protection#6c05020a032c1e0918191e0200090b0d00421e19"
+                    ><span
+                      class="__cf_email__"
+                      data-cfemail="bbd2d5ddd4fbc9decfcec9d5d7dedcdad795c9ce"
+                      >[email&#160;protected]</span
+                    ></a
+                  >
+                </div>
+              </div>
+              <div class="contact-method">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3 5C3 3.89543 3.89543 3 5 3H8.27924C8.70967 3 9.09181 3.27543 9.22792 3.68377L10.7257 8.17721C10.8831 8.64932 10.6694 9.16531 10.2243 9.38787L7.96701 10.5165C9.06925 12.9612 11.0388 14.9308 13.4835 16.033L14.6121 13.7757C14.8347 13.3306 15.3507 13.1169 15.8228 13.2743L20.3162 14.7721C20.7246 14.9082 21 15.2903 21 15.7208V19C21 20.1046 20.1046 21 19 21H18C9.71573 21 3 14.2843 3 6V5Z"
+                    stroke="#00ff88"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <div>
+                  <strong>Телефон:</strong>
+                  <a href="tel:+78001234567">+7 (800) 123-45-67</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper">
+            <form class="contact-form" id="contact-form">
+              <div class="form-group">
+                <label for="contact-name">Ваше имя *</label>
+                <input type="text" id="contact-name" name="name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Email или телефон *</label>
+                <input type="text" id="contact-email" name="contact" required />
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Тема обращения</label>
+                <select id="contact-subject" name="subject">
+                  <option value="">Выберите тему</option>
+                  <option value="consultation">Нужна консультация</option>
+                  <option value="blocked">Заблокирован счет</option>
+                  <option value="withdrawal">Проблемы с выводом</option>
+                  <option value="scam">Подозреваю мошенничество</option>
+                  <option value="other">Другое</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Ваше сообщение *</label>
+                <textarea
+                  id="contact-message"
+                  name="message"
+                  rows="5"
+                  required
+                  placeholder="Опишите вашу ситуацию..."
+                ></textarea>
+              </div>
+
+              <div class="form-group checkbox-group">
+                <input
+                  type="checkbox"
+                  id="contact-agreement"
+                  name="agreement"
+                  required
+                />
+                <label for="contact-agreement"
+                  >Согласен на обработку персональных данных</label
+                >
+              </div>
+
+              <button type="submit" class="btn-submit">
+                Отправить сообщение
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <div class="footer-brand">
+              <svg
+                class="logo-icon"
+                viewBox="0 0 50 50"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="25"
+                  cy="25"
+                  r="20"
+                  fill="none"
+                  stroke="#00ff88"
+                  stroke-width="2"
+                />
+                <path d="M25 15 L35 25 L25 35 L15 25 Z" fill="#00ff88" />
+              </svg>
+              <span>Return Legal</span>
+            </div>
+            <p>Профессиональная юридическая помощь в возврате средств</p>
+          </div>
+
+          <div class="footer-column">
+            <h4>Навигация</h4>
+            <ul>
+              <li><a href="#about">О нас</a></li>
+              <li><a href="#how-we-work">Как мы работаем</a></li>
+              <li><a href="#reviews">Отзывы</a></li>
+              <li><a href="#contact">Контакты</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Контакты</h4>
+            <ul>
+              <li>
+                <a
+                  href="/cdn-cgi/l/email-protection#82ebece4edc2f0e7f6f7f0eceee7e5e3eeacf0f7"
+                  ><span
+                    class="__cf_email__"
+                    data-cfemail="c0a9aea6af80b2a5b4b5b2aeaca5a7a1aceeb2b5"
+                    >[email&#160;protected]</span
+                  ></a
+                >
+              </li>
+              <li><a href="tel:+78001234567">+7 (800) 123-45-67</a></li>
+              <li><a href="https://t.me/returnlegal">Telegram</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Режим работы</h4>
+            <ul>
+              <li>Пн-Пт: 9:00 - 21:00</li>
+              <li>Сб-Вс: 10:00 - 18:00</li>
+              <li>Заявки принимаем 24/7</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Return Legal. Все права защищены.</p>
+          <p class="footer-disclaimer">
+            Информация на сайте не является публичной офертой. Результаты
+            зависят от обстоятельств каждого конкретного дела.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
