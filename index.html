@@ -17,21 +17,46 @@
             viewBox="0 0 50 50"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle
-              cx="25"
-              cy="25"
-              r="20"
-              fill="none"
-              stroke="#FFD700"
-              fill="#FFD700"
+            <defs>
+              <linearGradient
+                id="logoGradient"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="100%"
+              >
+                <stop
+                  offset="0%"
+                  style="stop-color: #10b981; stop-opacity: 1"
+                />
+                <stop
+                  offset="100%"
+                  style="stop-color: #059669; stop-opacity: 1"
+                />
+              </linearGradient>
+            </defs>
+            <circle cx="25" cy="25" r="20" fill="url(#logoGradient)" />
+            <path
+              d="M25 10 L32 25 L25 40 L18 25 Z"
+              fill="#ffffff"
+              opacity="0.9"
             />
-            <path d="M25 15 L35 25 L25 35 L15 25 Z" fill="#00ff88" />
+            <circle cx="25" cy="25" r="6" fill="#10b981" />
+            <path
+              d="M20 25 L23 28 L30 21"
+              stroke="#ffffff"
+              stroke-width="2.5"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
           </svg>
           <span class="brand-name">Return Legal</span>
         </div>
 
         <ul class="nav-menu">
           <li><a href="#about">О нас</a></li>
+          <li><a href="#team">Команда</a></li>
           <li><a href="#how-we-work">Как мы работаем</a></li>
           <li><a href="#reviews">Отзывы</a></li>
           <li><a href="#contact">Контакты</a></li>
@@ -53,6 +78,7 @@
       <button class="close-menu" id="close-menu">&times;</button>
       <ul>
         <li><a href="#about">О нас</a></li>
+        <li><a href="#team">Команда</a></li>
         <li><a href="#how-we-work">Как мы работаем</a></li>
         <li><a href="#reviews">Отзывы</a></li>
         <li><a href="#contact">Контакты</a></li>
@@ -75,8 +101,8 @@
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <circle cx="10" cy="10" r="8" fill="#FFD700" opacity="0.2" />
-                <circle cx="10" cy="10" r="3" fill="#FFD700" />
+                <circle cx="10" cy="10" r="8" fill="#10b981" opacity="0.2" />
+                <circle cx="10" cy="10" r="3" fill="#10b981" />
               </svg>
               <span>Юридическая помощь по возврату средств</span>
             </div>
@@ -94,7 +120,7 @@
                 >
                   <path
                     d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
-                    stroke="#FFD700"
+                    stroke="#10b981"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -112,7 +138,7 @@
                 >
                   <path
                     d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
-                    stroke="#FFD700"
+                    stroke="#10b981"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -130,7 +156,7 @@
                 >
                   <path
                     d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
-                    stroke="#FFD700"
+                    stroke="#10b981"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -148,7 +174,7 @@
                 >
                   <path
                     d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
-                    stroke="#FFD700"
+                    stroke="#10b981"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -173,7 +199,7 @@
               >
                 <path
                   d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM11 15H9V13H11V15ZM11 11H9V5H11V11Z"
-                  fill="#FFD700"
+                  fill="#10b981"
                   opacity="0.7"
                 />
               </svg>
@@ -340,16 +366,16 @@
                   width="32"
                   height="28"
                   rx="2"
-                  stroke="#FFD700"
+                  stroke="#10b981"
                   stroke-width="2"
                 />
                 <path
                   d="M16 8V12M32 8V12M8 20H40"
-                  stroke="#FFD700"
+                  stroke="#10b981"
                   stroke-width="2"
                   stroke-linecap="round"
                 />
-                <circle cx="24" cy="28" r="2" fill="#00ff88" />
+                <circle cx="24" cy="28" r="2" fill="#34d399" />
               </svg>
             </div>
             <h3>Более 7 лет опыта</h3>
@@ -370,7 +396,7 @@
               >
                 <path
                   d="M24 4L30 18L44 20L34 30L36 44L24 37L12 44L14 30L4 20L18 18L24 4Z"
-                  stroke="#FFD700"
+                  stroke="#10b981"
                   stroke-width="2"
                   stroke-linejoin="round"
                 />
@@ -396,12 +422,12 @@
                   cx="24"
                   cy="24"
                   r="18"
-                  stroke="#FFD700"
+                  stroke="#10b981"
                   stroke-width="2"
                 />
                 <path
                   d="M24 12V24L32 28"
-                  stroke="#FFD700"
+                  stroke="#10b981"
                   stroke-width="2"
                   stroke-linecap="round"
                 />
@@ -425,7 +451,7 @@
               >
                 <path
                   d="M12 24L20 32L36 16"
-                  stroke="#FFD700"
+                  stroke="#10b981"
                   stroke-width="3"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -434,7 +460,7 @@
                   cx="24"
                   cy="24"
                   r="18"
-                  stroke="#FFD700"
+                  stroke="#10b981"
                   stroke-width="2"
                 />
               </svg>
@@ -443,6 +469,82 @@
             <p>
               Гонорар только в случае успешного взыскания средств. Консультация
               и анализ — бесплатно
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Команда -->
+    <section id="team" class="team">
+      <div class="container">
+        <div class="section-header">
+          <h2>Наша команда</h2>
+          <p class="section-subtitle">
+            Опытные юристы, которые вернут ваши деньги
+          </p>
+        </div>
+
+        <div class="team-grid">
+          <div class="team-member">
+            <div class="team-photo">
+              <img
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop"
+                alt="Алексей Волков"
+              />
+            </div>
+            <h3>Алексей Волков</h3>
+            <p class="team-role">
+              Ведущий юрист, специалист по финансовым спорам
+            </p>
+            <p class="team-desc">
+              12+ лет опыта в судебных разбирательствах. Выиграл более 200 дел о
+              возврате средств
+            </p>
+          </div>
+
+          <div class="team-member">
+            <div class="team-photo">
+              <img
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop"
+                alt="Мария Соколова"
+              />
+            </div>
+            <h3>Мария Соколова</h3>
+            <p class="team-role">Юрист по криптовалютным делам</p>
+            <p class="team-desc">
+              Специализация на возврате средств с криптовалютных платформ и
+              блокчейн-проектов
+            </p>
+          </div>
+
+          <div class="team-member">
+            <div class="team-photo">
+              <img
+                src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop"
+                alt="Дмитрий Петров"
+              />
+            </div>
+            <h3>Дмитрий Петров</h3>
+            <p class="team-role">Юрист-аналитик</p>
+            <p class="team-desc">
+              Эксперт по сбору доказательной базы и взаимодействию с финансовыми
+              учреждениями
+            </p>
+          </div>
+
+          <div class="team-member">
+            <div class="team-photo">
+              <img
+                src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop"
+                alt="Екатерина Иванова"
+              />
+            </div>
+            <h3>Екатерина Иванова</h3>
+            <p class="team-role">Юрист по международным делам</p>
+            <p class="team-desc">
+              Специализация на трансграничных спорах и работе с иностранными
+              платформами
             </p>
           </div>
         </div>
@@ -555,12 +657,12 @@
                 cx="12"
                 cy="12"
                 r="10"
-                stroke="#FFD700"
+                stroke="#10b981"
                 stroke-width="2"
               />
               <path
                 d="M12 6V12L16 14"
-                stroke="#FFD700"
+                stroke="#10b981"
                 stroke-width="2"
                 stroke-linecap="round"
               />
@@ -729,7 +831,7 @@
                 >
                   <path
                     d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
-                    stroke="#FFD700"
+                    stroke="#10b981"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -747,7 +849,7 @@
                 >
                   <path
                     d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
-                    stroke="#FFD700"
+                    stroke="#10b981"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -765,7 +867,7 @@
                 >
                   <path
                     d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
-                    stroke="#FFD700"
+                    stroke="#10b981"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -787,7 +889,7 @@
                 >
                   <path
                     d="M3 8L10.89 13.26C11.2187 13.4793 11.6049 13.5963 12 13.5963C12.3951 13.5963 12.7813 13.4793 13.11 13.26L21 8M5 19H19C19.5304 19 20.0391 18.7893 20.4142 18.4142C20.7893 18.0391 21 17.5304 21 17V7C21 6.46957 20.7893 5.96086 20.4142 5.58579C20.0391 5.21071 19.5304 5 19 5H5C4.46957 5 3.96086 5.21071 3.58579 5.58579C3.21071 5.96086 3 6.46957 3 7V17C3 17.5304 3.21071 18.0391 3.58579 18.4142C3.96086 18.7893 4.46957 19 5 19Z"
-                    stroke="#FFD700"
+                    stroke="#10b981"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -796,10 +898,10 @@
                 <div>
                   <strong>Email:</strong>
                   <a
-                    href="/cdn-cgi/l/email-protection#6c05020a032c1e0918191e0200090b0d00421e19"
+                    href="/cdn-cgi/l/email-protection#80e9eee6efc0f2e5f4f5f2eeece5e7e1ecaef2f5"
                     ><span
                       class="__cf_email__"
-                      data-cfemail="bbd2d5ddd4fbc9decfcec9d5d7dedcdad795c9ce"
+                      data-cfemail="2e474048416e5c4b5a5b5c40424b494f42005c5b"
                       >[email&#160;protected]</span
                     ></a
                   >
@@ -815,7 +917,7 @@
                 >
                   <path
                     d="M3 5C3 3.89543 3.89543 3 5 3H8.27924C8.70967 3 9.09181 3.27543 9.22792 3.68377L10.7257 8.17721C10.8831 8.64932 10.6694 9.16531 10.2243 9.38787L7.96701 10.5165C9.06925 12.9612 11.0388 14.9308 13.4835 16.033L14.6121 13.7757C14.8347 13.3306 15.3507 13.1169 15.8228 13.2743L20.3162 14.7721C20.7246 14.9082 21 15.2903 21 15.7208V19C21 20.1046 20.1046 21 19 21H18C9.71573 21 3 14.2843 3 6V5Z"
-                    stroke="#FFD700"
+                    stroke="#10b981"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -896,15 +998,44 @@
                 viewBox="0 0 50 50"
                 xmlns="http://www.w3.org/2000/svg"
               >
+                <defs>
+                  <linearGradient
+                    id="logoGradientFooter"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%"
+                  >
+                    <stop
+                      offset="0%"
+                      style="stop-color: #10b981; stop-opacity: 1"
+                    />
+                    <stop
+                      offset="100%"
+                      style="stop-color: #059669; stop-opacity: 1"
+                    />
+                  </linearGradient>
+                </defs>
                 <circle
                   cx="25"
                   cy="25"
                   r="20"
-                  fill="none"
-                  stroke="#FFD700"
-                  stroke-width="2"
+                  fill="url(#logoGradientFooter)"
                 />
-                <path d="M25 15 L35 25 L25 35 L15 25 Z" fill="#00ff88" />
+                <path
+                  d="M25 10 L32 25 L25 40 L18 25 Z"
+                  fill="#ffffff"
+                  opacity="0.9"
+                />
+                <circle cx="25" cy="25" r="6" fill="#10b981" />
+                <path
+                  d="M20 25 L23 28 L30 21"
+                  stroke="#ffffff"
+                  stroke-width="2.5"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
               </svg>
               <span>Return Legal</span>
             </div>
@@ -915,6 +1046,7 @@
             <h4>Навигация</h4>
             <ul>
               <li><a href="#about">О нас</a></li>
+              <li><a href="#team">Команда</a></li>
               <li><a href="#how-we-work">Как мы работаем</a></li>
               <li><a href="#reviews">Отзывы</a></li>
               <li><a href="#contact">Контакты</a></li>
@@ -926,10 +1058,10 @@
             <ul>
               <li>
                 <a
-                  href="/cdn-cgi/l/email-protection#82ebece4edc2f0e7f6f7f0eceee7e5e3eeacf0f7"
+                  href="/cdn-cgi/l/email-protection#1871767e77586a7d6c6d6a76747d7f7974366a6d"
                   ><span
                     class="__cf_email__"
-                    data-cfemail="c0a9aea6af80b2a5b4b5b2aeaca5a7a1aceeb2b5"
+                    data-cfemail="e28b8c848da290879697908c8e8785838ecc9097"
                     >[email&#160;protected]</span
                   ></a
                 >
@@ -950,7 +1082,7 @@
         </div>
 
         <div class="footer-bottom">
-          <p>&copy; 2026 Return Legal. Все права защищены.</p>
+          <p>&copy; 2025 Return Legal. Все права защищены.</p>
           <p class="footer-disclaimer">
             Информация на сайте не является публичной офертой. Результаты
             зависят от обстоятельств каждого конкретного дела.
