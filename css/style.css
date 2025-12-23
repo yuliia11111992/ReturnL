@@ -245,7 +245,7 @@ body {
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 2rem;
-  background: linear-gradient(135deg, #ffffff 0%, var(--primary-green) 100%);
+  background: linear-gradient(135deg, #f4f0aa 0%, var(--primary-green) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -484,6 +484,7 @@ body {
 }
 
 /* Секции */
+
 section {
   padding: 80px 0;
 }
@@ -506,6 +507,31 @@ section {
 .section-subtitle {
   color: var(--text-secondary);
   font-size: 1.1rem;
+}
+.about-wrapper {
+  border: 2px solid #ffd700; /* ярко-жёлтая рамка */
+  border-radius: 12px; /* скруглённые углы */
+  padding: 30px; /* внутренние отступы */
+  background-color: #0f0f0e; /* светлый фон, оттенок "кремовый" */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* лёгкая тень */
+  margin: 40px 0; /* отступы сверху и снизу */
+}
+
+.about-wrapper .section-header h2 {
+  color: #eed026; /* заголовок ярко-жёлтый */
+  margin-bottom: 10px;
+}
+
+.about-wrapper .section-subtitle {
+  color: #ecf1dc;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.about-wrapper .about-description p {
+  margin-bottom: 15px;
+  line-height: 1.7;
+  color: #ecf1ac;
 }
 
 /* О нас */
